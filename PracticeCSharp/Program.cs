@@ -10,7 +10,11 @@ namespace PracticeCSharp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Start Learing...");
+            Console.WriteLine("   /|");
+            Console.WriteLine("  / |");
+            Console.WriteLine(" /  |");
+            Console.WriteLine("/___|");
+
             Console.ReadLine();
         }
     }
