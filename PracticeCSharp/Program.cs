@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -62,6 +63,28 @@ namespace PracticeCSharp
             Console.WriteLine(Math.Max(num1, num2));
             Console.WriteLine(Math.Pow(num1, num2));
             Console.WriteLine(Math.Sqrt(num1));
+
+            Console.WriteLine("--------------------------");
+
+            Console.WriteLine("Geting Input from the USer");
+            Console.Write("Enter your name: ");
+            string userName = Console.ReadLine();
+            Console.WriteLine("Hi " + userName);
+
+            Console.Write("How old are you: ");
+            string userAge = Console.ReadLine();
+            Console.WriteLine("You are " + userAge + " years old.");
+
+            Console.WriteLine("--------------------------");
+
+            Console.WriteLine("BAsic Calculator");
+            Console.Write("Enter firstNum: ");
+            double firstNum = Convert.ToDouble(Console.ReadLine());
+            Console.Write("Enter secondNum: ");
+            double secondNum = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine(firstNum + secondNum);
+
 
 
             Console.ReadLine();
