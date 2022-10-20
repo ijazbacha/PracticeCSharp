@@ -36,6 +36,16 @@ namespace PracticeCSharp
 
             Console.WriteLine("--------------------------");
 
+            Console.WriteLine("Work with String");
+            Console.WriteLine("Learn \"CSharp\"");
+            string phrase = "Learn CSharp";
+            Console.WriteLine(phrase.ToLower());
+            Console.WriteLine(phrase.ToUpper());
+            Console.WriteLine(phrase.IndexOf('a'));
+            Console.WriteLine(phrase[0]);
+            Console.WriteLine(phrase.Remove(1, 3));
+            Console.WriteLine(phrase.Replace("Learn", "Start"));
+
             Console.ReadLine();
         }
     }
