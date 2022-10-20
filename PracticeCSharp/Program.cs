@@ -48,6 +48,22 @@ namespace PracticeCSharp
             Console.WriteLine(phrase.Substring(2));
             Console.WriteLine(phrase.Substring(2, 6));
 
+            Console.WriteLine("--------------------------");
+
+            Console.WriteLine("Work with Number");
+            int num1 = 5;
+            int num2 = 2;
+            Console.WriteLine(num2 + num1);
+            Console.WriteLine(num2 - num1);
+            Console.WriteLine(num1 * num2);
+            Console.WriteLine(num1 / num2);
+            Console.WriteLine(num2 % num1);
+            Console.WriteLine(Math.Min(num1, num2));
+            Console.WriteLine(Math.Max(num1, num2));
+            Console.WriteLine(Math.Pow(num1, num2));
+            Console.WriteLine(Math.Sqrt(num1));
+
+
             Console.ReadLine();
         }
     }
