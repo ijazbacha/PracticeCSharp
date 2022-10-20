@@ -1,0 +1,8 @@
+C:\Users\IjazAhmad\source\repos\PracticeCSharp\PracticeCSharp\bin\Debug\PracticeCSharp.exe.config
+C:\Users\IjazAhmad\source\repos\PracticeCSharp\PracticeCSharp\bin\Debug\PracticeCSharp.exe
+C:\Users\IjazAhmad\source\repos\PracticeCSharp\PracticeCSharp\bin\Debug\PracticeCSharp.pdb
+C:\Users\IjazAhmad\source\repos\PracticeCSharp\PracticeCSharp\obj\Debug\PracticeCSharp.csproj.AssemblyReference.cache
+C:\Users\IjazAhmad\source\repos\PracticeCSharp\PracticeCSharp\obj\Debug\PracticeCSharp.csproj.SuggestedBindingRedirects.cache
+C:\Users\IjazAhmad\source\repos\PracticeCSharp\PracticeCSharp\obj\Debug\PracticeCSharp.csproj.CoreCompileInputs.cache
+C:\Users\IjazAhmad\source\repos\PracticeCSharp\PracticeCSharp\obj\Debug\PracticeCSharp.exe
+C:\Users\IjazAhmad\source\repos\PracticeCSharp\PracticeCSharp\obj\Debug\PracticeCSharp.pdb
