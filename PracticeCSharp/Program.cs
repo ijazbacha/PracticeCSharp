@@ -45,6 +45,8 @@ namespace PracticeCSharp
             Console.WriteLine(phrase[0]);
             Console.WriteLine(phrase.Remove(1, 3));
             Console.WriteLine(phrase.Replace("Learn", "Start"));
+            Console.WriteLine(phrase.Substring(2));
+            Console.WriteLine(phrase.Substring(2, 6));
 
             Console.ReadLine();
         }
