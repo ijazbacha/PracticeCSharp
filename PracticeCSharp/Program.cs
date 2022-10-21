@@ -85,7 +85,19 @@ namespace PracticeCSharp
 
             Console.WriteLine(firstNum + secondNum);
 
+            Console.WriteLine("--------------------------");
 
+            Console.WriteLine("Array");
+            int[] numbers = { 1, 2, 3, 4, 5, 6, };
+            Console.WriteLine(numbers.Length);
+            Console.WriteLine(numbers[0]);
+            numbers[1] = 200;
+            Console.WriteLine(numbers[1]);
+            Console.WriteLine(numbers);
+
+            string[] names = new string[5];
+            names[0] = "abc";
+            Console.WriteLine(names[0]);
 
             Console.ReadLine();
         }
