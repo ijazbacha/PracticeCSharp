@@ -105,6 +105,12 @@ namespace PracticeCSharp
 
             SayHi("peter", 20);
 
+            Console.WriteLine("--------------------------");
+
+            Console.WriteLine("Return Method");
+
+            int cube = CubeNum(2);
+            Console.WriteLine("the cube of 4 is: " + cube);
 
             Console.ReadLine();
         }
@@ -113,6 +119,11 @@ namespace PracticeCSharp
         static void SayHi(string name, int age)
         {
             Console.WriteLine("Hi Yor name is -> " + name + " and age is -> " + age);
+        }
+
+        static int CubeNum(int num)
+        {
+            return num * num * num;
         }
     }
 }
