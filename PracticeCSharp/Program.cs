@@ -109,8 +109,13 @@ namespace PracticeCSharp
 
             Console.WriteLine("Return Method");
 
-            int cube = CubeNum(2);
+            int cube = CubeNum(4);
             Console.WriteLine("the cube of 4 is: " + cube);
+
+            Console.WriteLine("--------------------------");
+
+            Console.WriteLine("IF STATEMENT");
+            IfStatement();
 
             Console.ReadLine();
         }
@@ -124,6 +129,26 @@ namespace PracticeCSharp
         static int CubeNum(int num)
         {
             return num * num * num;
+        }
+
+        static void IfStatement()
+        {
+            
+            bool isMale = true;
+            int isAge = 10;
+
+            if (isMale && isAge >= 18)
+            {
+                Console.WriteLine("you are male and can be vote...");
+            }
+            else if(!isMale && isAge >= 18)
+            {
+                Console.WriteLine("you are female and can be vote...");
+            }
+            else
+            {
+                Console.WriteLine("you are under age and cant be vote");
+            }
         }
     }
 }
