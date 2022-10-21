@@ -99,7 +99,20 @@ namespace PracticeCSharp
             names[0] = "abc";
             Console.WriteLine(names[0]);
 
+            Console.WriteLine("--------------------------");
+
+            Console.WriteLine("Calling Method");
+
+            SayHi("peter", 20);
+
+
             Console.ReadLine();
+        }
+
+
+        static void SayHi(string name, int age)
+        {
+            Console.WriteLine("Hi Yor name is -> " + name + " and age is -> " + age);
         }
     }
 }
