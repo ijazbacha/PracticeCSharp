@@ -80,6 +80,10 @@ namespace PracticeCSharp
             Console.WriteLine("BAsic Calculator");
             Console.Write("Enter firstNum: ");
             double firstNum = Convert.ToDouble(Console.ReadLine());
+
+            Console.Write("Enter Operator: ");
+            string op = Console.ReadLine();
+
             Console.Write("Enter secondNum: ");
             double secondNum = Convert.ToDouble(Console.ReadLine());
 
@@ -117,6 +121,11 @@ namespace PracticeCSharp
             Console.WriteLine("IF STATEMENT");
             IfStatement();
 
+            Console.WriteLine("--------------------------");
+
+            Console.WriteLine("SWITCH STATEMENT");
+            Console.WriteLine(GetDay(0));
+
             Console.ReadLine();
         }
 
@@ -149,6 +158,36 @@ namespace PracticeCSharp
             {
                 Console.WriteLine("you are under age and cant be vote");
             }
+        }
+
+         static string GetDay(int dayNum)
+        {
+            string dayName;
+            switch (dayNum)
+            {
+                case 0:
+                    dayName = "A";
+                        break;
+                case 1:
+                    dayName = "B";
+                    break;
+                case 3:
+                    dayName = "C";
+                    break;
+                case 4:
+                    dayName = "D";
+                    break;
+                case 5:
+                    dayName = "E";
+                    break;
+                case 6:
+                    dayName = "F";
+                    break;
+                default:
+                    dayName = "Invaild Day Number";
+                    break;
+            }
+            return dayName; 
         }
     }
 }
