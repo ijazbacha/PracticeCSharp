@@ -126,6 +126,17 @@ namespace PracticeCSharp
             Console.WriteLine("SWITCH STATEMENT");
             Console.WriteLine(GetDay(0));
 
+            Console.WriteLine("--------------------------");
+
+            Console.WriteLine("WHILE LOOP");
+
+            int index = 0;
+            while(index < 10)
+            {
+                Console.WriteLine("value of index " + index);
+                index++;
+            }
+
             Console.ReadLine();
         }
 
