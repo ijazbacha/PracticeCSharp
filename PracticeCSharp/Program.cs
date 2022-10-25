@@ -162,8 +162,9 @@ namespace PracticeCSharp
             Console.WriteLine("CLASS AND OBJECT");
 
             Book book = new Book("title of book", "sadasda", 777);
+            Book book2 = new Book("title of book2", "sadasda", 777);
 
-            Console.WriteLine(book.title);
+            Console.WriteLine(book.GetTitle(book2.title));
 
             Console.ReadLine();
         }

@@ -19,6 +19,11 @@ namespace PracticeCSharp
             author = aAuthor;
             numPages = aNumpage;
         }
+
+        public string GetTitle(string title)
+        {
+            return title + " this is title";
+        }
     }
 
     
