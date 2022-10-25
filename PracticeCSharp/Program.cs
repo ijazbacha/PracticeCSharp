@@ -164,7 +164,9 @@ namespace PracticeCSharp
             Book book = new Book("title of book", "sadasda", 777);
             Book book2 = new Book("title of book2", "sadasda", 777);
 
-            Console.WriteLine(book.GetTitle(book2.title));
+            Console.WriteLine(book.GetTitle());
+            Console.WriteLine(Book.count);
+            Console.WriteLine(book2.GetCount());
 
             Console.ReadLine();
         }
