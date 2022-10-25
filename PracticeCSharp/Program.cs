@@ -161,7 +161,8 @@ namespace PracticeCSharp
 
             Console.WriteLine("CLASS AND OBJECT");
 
-            Book book = new Book("title of book", "sadasda", 777);
+            Book book = new Book();
+            book.title = "The Holy Quran";
 
             Console.WriteLine(book.title);
 
