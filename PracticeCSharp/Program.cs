@@ -141,12 +141,21 @@ namespace PracticeCSharp
 
             Console.WriteLine("DO WHILE LOOP");
 
-            int doIndex = 10;
+            int doIndex = 5;
             do
             {
-                Console.WriteLine("value of do index " + index);
-                index++;
+                Console.WriteLine("value of do index " + doIndex);
+                doIndex++;
             } while (doIndex < 10);
+
+            Console.WriteLine("--------------------------");
+
+            Console.WriteLine("FOR LOOP");
+
+            for(int i = 0; i < 10; i++)
+            {
+                Console.WriteLine("the value of i is: " + i);
+            }
 
             Console.ReadLine();
         }
