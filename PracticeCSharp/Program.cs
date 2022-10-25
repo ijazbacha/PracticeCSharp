@@ -157,6 +157,14 @@ namespace PracticeCSharp
                 Console.WriteLine("the value of i is: " + i);
             }
 
+            Console.WriteLine("--------------------------");
+
+            Console.WriteLine("CLASS AND OBJECT");
+
+            Book book = new Book("title of book", "sadasda", 777);
+
+            Console.WriteLine(book.title);
+
             Console.ReadLine();
         }
 
